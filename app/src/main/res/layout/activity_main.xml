@@ -25,7 +25,9 @@
             android:layout_gravity="bottom"
             app:backgroundTint="@color/skyblue"
             app:fabAlignmentMode="center"
-            app:fabCradleMargin="20dp"
+            app:fabCradleMargin="13dp"
+            app:navigationIcon="@drawable/darkmodeicon"
+
 
             />
 
@@ -33,7 +35,7 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/icons8plus24"
+            android:src="@drawable/plusiconwhite"
             app:backgroundTint="@color/yellow"
             app:layout_anchor="@id/bar" />
 
